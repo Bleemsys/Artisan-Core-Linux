@@ -1,5 +1,7 @@
 # Artisan
-This is Linux Version of Artisan Core. You may find the Windows version at: https://github.com/bleemsys/Artisan-Core
+This is the Linux version of the Artisan Core, compiled on Windows 11 WSL2 with Ubuntu 24.04.1. Please note that this version has not been fully tested.
+
+The Windows version is available at: https://github.com/bleemsys/Artisan-Core
 
 Artisan is a tool for lattice generation. It is based on implicit modelling technique. The code is based on Python and C++ in order to combining the development speed and computational efficiency. Artisan computes the most of heavy math through C++ code, and conducts the routine calculations via Python. 
 
