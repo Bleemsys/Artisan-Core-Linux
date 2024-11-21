@@ -1,0 +1,22 @@
+2024-11-14 13:18:39,049 [INFO] This is testing package of Artisan distributed under CC BY-NC-ND 3.0 license.If you have been granted a trial business license,the terms of that license may supersede the above CC BY-NC-ND 3.0 license.Please refer to your specific business license agreement for more details.
+2024-11-14 13:18:39,049 [INFO] Disclaimer: This software is provided "as is," and the author or provider makes no representations or warranties, express or implied,including but not limited to warranties of merchantability orfitness for a particular purpose or that the use of the software will not infringe any patent,copyright, trademark, or other proprietary rights.
+2024-11-14 13:18:39,049 [INFO] Version: 0.2.9
+2024-11-14 13:18:39,050 [INFO] reading Json file: C:\Users\wangy\Documents\Project-Artisan\Artisan\SoloPkg\Artisan_dist\Artisan_0_2_9\Test_json\SurfaceLattice\Crankhandle_BasicSurfQuadMesh.json
+2024-11-14 13:18:39,050 [INFO] cmd: {'Setup': {'Type': 'Sample', 'Sample': {'Domain': [[-11.0, 11.0], [-11.0, 65.0], [-80.0, 0.0]], 'Shape': 'Box'}, 'Geomfile': '', 'Rot': [0.0, 0.0, 0.0], 'res': [0.1, 0.1, 0.1], 'Padding': 4, 'onGPU': False, 'memorylimit': 1073741824000}, 'WorkFlow': {'1': {'Gen_BasicQuadMesh': {'num_elem': [25, 65, 65], 'x_range': [0.0, 23.0], 'y_range': [0.0, 76.0], 'z_range': [0.0, 80.0], 'ori': [-12.0, -12.0, -80.0], 'z_angle': 0.0, 'Normal': [0.0, 0.0, 1.0], 'Meshfile': './/Test_json//SurfaceLattice//CrankhandleSurfQuadMesh.med', 'Geomfile': './/sample-obj//crank_handle.stl', 'isProjection': True, 'numCoverNodes': 1, 'isSplitTris': False}}, '2': {'Add_Lattice': {'la_name': './/Test_json//SurfaceLattice//Crankhandle_SurfQuadLattice.mld', 'size': [2.0, 2.0, 2.0], 'thk': 0.2, 'Rot': [0.0, 0.0, 0.0], 'Trans': [0.0, 0.0, 0.0], 'Inv': False, 'Fill': False, 'Cube_Request': {}}}, '3': {'Export': {'outfile': './/Test_results//Crankhandle_SurfMeshLattice.stl'}}}, 'PostProcess': {'CombineMeshes': True, 'RemovePartitionMeshFile': False, 'RemoveIsolatedParts': True, 'ExportLazPts': True}}
+2024-11-14 13:18:39,050 [INFO] Setup basic fill domain......
+2024-11-14 13:18:39,051 [INFO] Number of Domain Partition: 1
+2024-11-14 13:18:39,051 [INFO] Calculating Sub-Domain:1
+2024-11-14 13:18:39,051 [INFO] Building Up Sample Domain
+2024-11-14 13:18:45,095 [INFO] Geometry & Field Domain Infomation: 
+2024-11-14 13:18:45,096 [INFO] Domain: 
+2024-11-14 13:18:45,096 [INFO] Lower Bound: [-11.5 -11.5 -80.5]
+2024-11-14 13:18:45,097 [INFO] Upper Bound: [11.5 65.5  0.5]
+2024-11-14 13:18:45,097 [INFO] Resolution: [0.1 0.1 0.1]
+2024-11-14 13:18:45,097 [INFO] Workflow Calculation: 
+2024-11-14 13:18:45,097 [INFO] Calculating Gen_BasicQuadMesh
+2024-11-14 13:18:45,666 [INFO] Calculating Add_Lattice
+2024-11-14 13:18:50,563 [INFO] Calculating Export
+2024-11-14 13:19:14,462 [INFO] PostProcessing Meshes......
+2024-11-14 13:19:14,462 [INFO] Only one partition file, merging meshes will not be conducted.
+2024-11-14 13:19:14,699 [INFO] Process finished, check the result file.
+2024-11-14 13:19:14,699 [INFO] Peak Memory Usage: 8210.041785240173 MB
