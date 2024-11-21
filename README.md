@@ -77,7 +77,7 @@ The testing script, TestArtisan.py, will run through all the examples in the Tes
 
 To execute the script, use:
 
-python3.11 TestArtisan.py
+    python3.11 TestArtisan.py
 
 Ensure that the python command is aliased to python3.11 on your system. If it isn't, you will need to update the script to use the correct command.
 
